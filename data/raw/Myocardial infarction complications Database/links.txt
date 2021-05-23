@@ -1,0 +1,5 @@
+https://archive.ics.uci.edu/ml/datasets/Myocardial+infarction+complications
+https://leicester.figshare.com/articles/dataset/Myocardial_infarction_complications_Database/12045261
+
+https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01268-x
+https://www.healthline.com/health/acute-myocardial-infarction
