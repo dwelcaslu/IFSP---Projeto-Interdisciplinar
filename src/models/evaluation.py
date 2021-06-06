@@ -27,7 +27,7 @@ def performance_measures(y_true, y_pred, class_names=None):
     print('Accuracy (simple) ........: ' + str(results['accuracy']))
     print('Balanced acc.  ...........: ' + str(results['balanced_accuracy']))
     print('Balanced acc. (adjusted)..: ' + str(results['balanced_accuracy adjusted']))
-    print('Acc. norm (Recall avgs) ..: ' + str(format_measure(results['recall'].mean())))
+    # print('Acc. norm (Recall avgs) ..: ' + str(format_measure(results['recall'].mean())))
     print('Precision = tp / (tp + fp): ' + str(results['precision']) + ' -> accuracy of positive predictions')
     print('Recall    = tp / (tp + fn): ' + str(results['recall']) + ' -> sensibility (true positive rate)')
     print('F1 score .................: ' + str(results['f1_score']) + ' -> harmonic mean')

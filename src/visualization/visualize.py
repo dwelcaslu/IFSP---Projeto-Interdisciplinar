@@ -25,7 +25,7 @@ def plot_feature_boxplots(df_data, boxplot_cols, figsize=(12, 4), subplot_layout
 
 
 def plot_feature_histograms(df_data, histogram_cols, major_cat_perc=0.01,  major_cat_dropna=True, figsize=(15, 3)):
-    for i,col in enumerate(histogram_cols):
+    for _,col in enumerate(histogram_cols):
         plt.figure(figsize=figsize)
         try:
             dtype = df_data[col].dtype
